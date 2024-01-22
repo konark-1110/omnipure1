@@ -2,7 +2,7 @@ public class LeadTriggerHandler {
     public static void updateLeadSource(List<Lead> newLeads){
         for(Lead leadRecord:newLeads){
             if(leadRecord.Lead_from_Web__c==true){
-                leadRecord.LeadSource='Websiste';
+                leadRecord.LeadSource='Website';
             }
         }
     }
